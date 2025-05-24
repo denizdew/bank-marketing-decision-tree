@@ -7,7 +7,7 @@ Telefon görüşmeleri, müşterilerin demografik ve finansal bilgileri gibi de�
 
 ## Kullanılan Algoritma
 
-- **Karar Ağacı (Decision Tree Classifier)**  
+- Karar Ağacı (Decision Tree Classifier)
 Modelin yorumlanabilirliği, kategorik verilerle doğrudan çalışabilmesi ve kolay uygulanabilir olması nedeniyle tercih edilmiştir.
 
 ## Model Performansı
@@ -16,6 +16,12 @@ Modelin yorumlanabilirliği, kategorik verilerle doğrudan çalışabilmesi ve k
 - F1-score (Sınıf 0 – Katılmayan): 0.80  
 - F1-score (Sınıf 1 – Katılan): 0.78  
 - Precision / Recall: Dengeli
+
+  ## Geliştirilebilir Yönler
+
+- Hiperparametre optimizasyonu ile performans artırılabilir  
+- Random Forest gibi algoritmalarla karşılaştırılabilir  
+- Aynı veri setiyle gözetimsiz öğrenme (müşteri segmentasyonu) yapılabilir
 
 ## Kaggle Notebook Linki  
  https://www.kaggle.com/code/denizde/karar-agaci
